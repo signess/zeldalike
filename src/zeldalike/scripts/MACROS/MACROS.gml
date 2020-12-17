@@ -9,3 +9,5 @@
 #macro TRANSITION_SPEED 0.02
 #macro OUT 0
 #macro IN 1
+
+#macro PLAYER_HEAD 13;
