@@ -2,11 +2,11 @@
   "isDnD": false,
   "isCompatibility": false,
   "parent": {
-    "name": "EntityHit",
-    "path": "folders/Scripts/EntityHit.yy",
+    "name": "Player State Machine",
+    "path": "folders/Scripts/Player State Machine.yy",
   },
   "resourceVersion": "1.0",
-  "name": "EntityHitDestroy",
+  "name": "PlayerStateTransition",
   "tags": [],
   "resourceType": "GMScript",
 }

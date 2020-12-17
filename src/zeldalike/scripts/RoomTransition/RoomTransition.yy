@@ -2,11 +2,11 @@
   "isDnD": false,
   "isCompatibility": false,
   "parent": {
-    "name": "EntityHit",
-    "path": "folders/Scripts/EntityHit.yy",
+    "name": "Scripts",
+    "path": "folders/Scripts.yy",
   },
   "resourceVersion": "1.0",
-  "name": "EntityHitDestroy",
+  "name": "RoomTransition",
   "tags": [],
   "resourceType": "GMScript",
 }
