@@ -11,6 +11,10 @@ keyItem = keyboard_check_pressed(vk_control) or mouse_check_button_pressed(mb_ri
 inputDirection = point_direction(0,0,keyRight-keyLeft,keyDown-keyUp);
 inputMagnitude = (keyRight - keyLeft != 0) or (keyDown - keyUp != 0);
 
-if(!global.gamePaused) script_execute(state);
-
+if(!global.gamePaused)
+{
+	script_execute(state);
+	invulnerable = max (invulnerable - 1, 0);
+	flash = max (flash - 0.05, 0);
+}
 depth = -bbox_bottom;

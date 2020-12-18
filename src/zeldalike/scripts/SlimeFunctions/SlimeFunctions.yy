@@ -6,7 +6,7 @@
     "path": "folders/Scripts/Slime.yy",
   },
   "resourceVersion": "1.0",
-  "name": "SlimeAttack",
+  "name": "SlimeFunctions",
   "tags": [],
   "resourceType": "GMScript",
 }
