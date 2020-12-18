@@ -31,6 +31,7 @@
     {"id":{"name":"PlayerStateTransition","path":"scripts/PlayerStateTransition/PlayerStateTransition.yy",},"order":5,},
     {"id":{"name":"sPlayerLift","path":"sprites/sPlayerLift/sPlayerLift.yy",},"order":18,},
     {"id":{"name":"sPlayerAttackSlash","path":"sprites/sPlayerAttackSlash/sPlayerAttackSlash.yy",},"order":1,},
+    {"id":{"name":"SaveGame","path":"scripts/SaveGame/SaveGame.yy",},"order":30,},
     {"id":{"name":"oRoomExit","path":"objects/oRoomExit/oRoomExit.yy",},"order":11,},
     {"id":{"name":"sCol","path":"sprites/sCol/sCol.yy",},"order":2,},
     {"id":{"name":"rRiver","path":"rooms/rRiver/rRiver.yy",},"order":4,},
