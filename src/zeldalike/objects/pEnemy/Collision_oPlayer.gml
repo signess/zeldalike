@@ -1,2 +1,2 @@
 /// @description Hurt player on collision
-HurtPlayer(point_direction(x, y, o.Player.x, oPlayer.y), enemyForceTouch, enemyDamageTouch);
+HurtPlayer(point_direction(x, y, oPlayer.x, oPlayer.y), enemyForceTouch, enemyDamageTouch);
