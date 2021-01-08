@@ -4,9 +4,9 @@ function HurtPlayer(_direction, _force, _damage)
 	{
 		global.playerHealth = max(0, global.playerHealth - _damage);
 		
-		if(global.playerHealth > 0)
+		with(oPlayer)
 		{
-			with(oPlayer)
+			if(global.playerHealth > 0)					
 			{
 				state = PlayerStateBonk;
 				direction = _direction - 180;
@@ -16,10 +16,12 @@ function HurtPlayer(_direction, _force, _damage)
 				invulnerable = 60;
 				flashShader = shRedFlash;
 			}
-		}
-		else
-		{
-			//Kill the player	
+		
+			else
+			{
+				//Kill the player	
+				state = PlayerStateDead;
+			}
 		}
 	}
 }
