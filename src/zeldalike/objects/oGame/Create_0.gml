@@ -7,6 +7,8 @@ global.targetRoom = -1;
 global.targetX = -1;
 global.targetY = -1;
 global.targetDirection = -1;
+global.questStatus = ds_map_create();
+global.questStatus[? "TheHatQuest"] = 0;
 
 //PLAYER VARIABLES
 global.playerHealthMax = 3;
