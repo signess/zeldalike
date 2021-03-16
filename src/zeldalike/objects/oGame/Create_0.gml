@@ -13,6 +13,7 @@ global.questStatus[? "TheHatQuest"] = 0;
 //PLAYER VARIABLES
 global.playerHealthMax = 3;
 global.playerHealth = global.playerHealthMax;
+global.playerMoney = 0;
 
 global.iLifted = noone;
 global.iCamera = instance_create_layer(0, 0, layer, oCamera);

@@ -19,7 +19,7 @@ if(instance_exists(oPlayer))
 		{
 			if(collectScriptArg != -1)
 			{
-				script_execute(collectScript, collectScripArg);	
+				script_execute(collectScript, collectScriptArg);	
 			}
 			else
 			{
