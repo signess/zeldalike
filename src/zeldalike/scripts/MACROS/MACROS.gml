@@ -24,3 +24,12 @@ enum ENEMYSTATE
 	DIE,
 	WAIT
 }
+
+enum ITEM
+{
+	NONE,
+	BOMB,
+	BOW,
+	HOOK,
+	TYPE_COUNT
+}
