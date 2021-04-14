@@ -25,6 +25,8 @@ global.playerAmmo[ITEM.BOW] = 0;
 global.playerItemUnlocked[ITEM.BOMB] = true;
 global.playerHasAnyItems = true;
 global.playerAmmo[ITEM.BOMB] = 5;
+global.playerItemUnlocked[ITEM.BOW] = true;
+global.playerAmmo[ITEM.BOW] = 15;
 
 //Quests
 global.questStatus = ds_map_create();

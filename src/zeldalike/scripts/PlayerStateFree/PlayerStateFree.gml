@@ -96,8 +96,36 @@ function PlayerStateFree(){
 				with(activate) 
 				{
 					direction = point_direction(x, y, other.x, other.y);
+					image_index = CARDINAL_DIR
 				}
 			}
+		}
+	}
+	
+	if(keyItem) and (!keyActivate) and (global.playerHasAnyItems) and (global.playerEquipped != ITEM.NONE)
+	{
+		switch (global.playerEquipped)
+		{
+			case ITEM.BOMB: UseItemBomb();break;
+			case ITEM.BOW: UseItemBow();break;
+			case ITEM.HOOK: UseItemHook();break;
+			default: break;
+		}
+	}
+	
+	//Cycle items
+	if(global.playerHasAnyItems)
+	{
+		var _cycleDirection = keyItemSelectUp - keyItemSelectDown;
+		if(_cycleDirection != 0)
+		{
+			do
+			{
+				global.playerEquipped += _cycleDirection;
+				if(global.playerEquipped < 1) global.playerEquipped = ITEM.TYPE_COUNT - 1;
+				if(global.playerEquipped >= ITEM.TYPE_COUNT) global.playerEquipped = 1;
+			}
+			until (global.playerItemUnlocked[global.playerEquipped]);
 		}
 	}
 }
