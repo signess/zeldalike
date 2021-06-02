@@ -87,9 +87,10 @@
   "layers": [
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"67fdcba0-ab28-410c-a1df-aa901fbeab58","tags":[],"resourceType":"GMImageLayer",},
   ],
+  "nineSlice": null,
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "Slime",
+    "path": "folders/Sprites/Enemies/Slime.yy",
   },
   "resourceVersion": "1.0",
   "name": "sSlimeDie",

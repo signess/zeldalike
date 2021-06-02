@@ -13,7 +13,7 @@ aggroCheckDuration = 5;
 stateTarget = state;
 statePrevious = state;
 stateWait = 0;
-stateWaitDuration = 0;
+stateWaitDuration = 120;
 
 //Time variables
 timePassed = 0;

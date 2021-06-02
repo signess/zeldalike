@@ -1,3 +1,12 @@
-/// @description Inherit the parent event
+/// @description Drop List
 event_inherited();
-entityDropList = [oCoin, oCoin, oCoin];
+entityDropList = choose
+(
+	[oBombDrop],
+	[oArrowDrop],
+	[oCoin],
+	[oCoin, oCoin],
+	[oCoin],
+	-1,
+	-1,
+)

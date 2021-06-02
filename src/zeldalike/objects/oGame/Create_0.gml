@@ -22,11 +22,15 @@ global.playerItemUnlocked = array_create(ITEM.TYPE_COUNT, false);
 global.playerAmmo[ITEM.BOMB] = 0;
 global.playerAmmo[ITEM.BOW] = 0;
 
-global.playerItemUnlocked[ITEM.BOMB] = true;
 global.playerHasAnyItems = true;
+
+global.playerItemUnlocked[ITEM.BOMB] = true;
 global.playerAmmo[ITEM.BOMB] = 5;
+
 global.playerItemUnlocked[ITEM.BOW] = true;
 global.playerAmmo[ITEM.BOW] = 15;
+
+global.playerItemUnlocked[ITEM.HOOK] = true;
 
 //Quests
 global.questStatus = ds_map_create();

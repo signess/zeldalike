@@ -165,8 +165,9 @@ function SlimeHurt()
 	{
 		x = xTo;
 		y = yTo;
-		if(statePrevious != ENEMYSTATE.ATTACK) state = statePrevious; else state = ENEMYSTATE.WAIT;
+		if(statePrevious != ENEMYSTATE.ATTACK) state = statePrevious; else state = ENEMYSTATE.CHASE;
 	}
+	
 }
 
 function SlimeDie()
